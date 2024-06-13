@@ -40,6 +40,13 @@ nav ul li {
 .hero{
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
+
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
 }
 .hero h1 {
     font-size: 48px;
