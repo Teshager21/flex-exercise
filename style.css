@@ -7,21 +7,26 @@
 
 nav{
     background-color: #1F2937;
+    padding-left: 7rem;
 }
 nav ul li {
     font-size: 18px;
     color: #e5e7eb; 
+    
 }
 .navbar {
     display:flex;
     justify-content: space-between;
-    padding: 2rem 4rem;
-   
+    align-items: center;
+    padding-top: 1rem;
+    padding-left:6rem;
+    padding-right:7rem;
+    
 }
 
 .navbar ul{
     display:flex;
-    gap:1rem;
+    gap:2rem;
 }
 
 .navbar ul li {
@@ -41,13 +46,30 @@ nav ul li {
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    /* justify-content: flex-start; */
+    /* width: 80%; */
+    padding-top:6rem;
+    padding-bottom:6rem;
+    padding-left:6rem;
+    padding-right: 7rem;
 
+
+}
+
+.hero img {
+    height: 16rem;
+    width: auto;
+    flex:1.2;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    flex:1;
+   
 }
 .hero h1 {
     font-size: 48px;
@@ -58,6 +80,12 @@ nav ul li {
 .hero button {
     background-color: #3882f6;
     color: #f9faf8;
+    border:none;
+    padding :0.5rem;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 8rem;
+    border-radius: .5rem;
 }
 
 footer{
