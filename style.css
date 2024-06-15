@@ -186,4 +186,9 @@ nav ul li {
     
 footer{
     background-color: #1F2937;  
+    color: #e5e7eb;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-weight: bold;
+    text-align: center;
 }
