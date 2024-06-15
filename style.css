@@ -152,6 +152,38 @@ nav ul li {
     font-weight: bold;
 
 }
+
+.call-to-action {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.call-to-action button {
+    background-color: #3882f6;
+    color: #e5e7eb;  
+    border: 0.2rem solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    /* padding-top: 0.25rem; */
+    padding-bottom: 0.25rem;
+    font-size: 24px;   
+}
+
+.label{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 1rem;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content:space-between;
+}
+    
 footer{
     background-color: #1F2937;  
 }
